@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Checkout code from your version control system (e.g., Git)
-                    git branch: 'master', credentialsId: 'your-git-credentials-id', url: 'https://github.com/KMSK05/TestingUI.git'
+                    git branch: 'master', credentialsId: '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', url: 'https://github.com/KMSK05/TestingUI.git'
                 }
             }
         }
