@@ -1,4 +1,4 @@
-[200~pipeline {
+pipeline {
     agent any  // Adjust if needed (e.g., specific docker image)
 
     stages {
@@ -27,6 +27,6 @@
                 // Publish test results (e.g., JUnit reports)
                 junit '/target/surefire-reports/*.xml'
             }
-        }
-    }
+        }
+    }
 }
